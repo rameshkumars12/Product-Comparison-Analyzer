@@ -17,7 +17,7 @@ def kart_item(kart):
     options.add_argument("--disable-dev-shm-usage")
 
 
-    driver = webdriver.Chrome("chromedriver.exe", options=options)
+    driver = webdriver.Chrome("chromedriver", options=options)
 
     #Getting the url
     url = "https://www.flipkart.com/"
